@@ -1,0 +1,25 @@
+<style>
+    h2{
+        font-size:50px;
+    }
+
+    div{
+
+    }
+
+</style>
+
+
+<b>html</b>
+<h2 onclick="doedit()">Hello there!</h2>
+<hr>
+<textarea cols="35" rows="10">Tekstblok</textarea>
+
+
+<br>
+<hr>
+<p><h2>Paragraaf</h2></p>
+<hr>
+
+<hr>
+<input type="text" placeholder="Vul je naam in">
