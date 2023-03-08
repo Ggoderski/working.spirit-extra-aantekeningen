@@ -1,0 +1,36 @@
+Deploy
+
+
+OTAP, Ontwikkeling, Test, Acceptatie en Productie
+DTAP, Development, Testing, Acceptance and Production
+
+virtualiatie
+	hardware wordt gevirtualiseerd
+
+DLL, Dynamic Link Library
+
+NAS, Network Attached Storage
+
+HighAvalibillity
+ 
+
+SPOF, Single point of Failure
+	1 onderdeel vervangen
+	2 alles opieuw instellen
+
+APPlicatioon
+	OS, Operating System, verbind met,
+	|	CPU / RAM / NIC'S / HDD
+	|
+	|
+	|
+VMWare, Virtual Machine Ware
+	Hyper Visor, cummoniceert met, cpu, ram, nic's, hdd
+
+
+
+
+DevOps
+
+
+	

@@ -1,0 +1,52 @@
+C:\Users\GideonGoderski\Desktop\Docker\gideon>docker images
+REPOSITORY           TAG       IMAGE ID       CREATED        SIZE
+ggoderski/testhtml   hello     8d627eb251f9   24 hours ago   54MB
+gideon               latest    8d627eb251f9   24 hours ago   54MB
+
+C:\Users\GideonGoderski\Desktop\Docker\gideon>docker image build -t test-01 .
+[+] Building 5.1s (7/7) FINISHED
+ => [internal] load build definition from Dockerfile                                                                                    0.0s
+ => => transferring dockerfile: 331B                                                                                                    0.0s
+ => [internal] load .dockerignore                                                                                                       0.0s
+ => => transferring context: 2B                                                                                                         0.0s
+ => [internal] load metadata for docker.io/library/n
+
+C:\Users\GideonGoderski\Desktop\Docker\gideon>docker images
+REPOSITORY           TAG       IMAGE ID       CREATED          SIZE
+test-01              latest    9729fb44e709   18 seconds ago   23.5MB
+ggoderski/testhtml   hello     8d627eb251f9   24 hours ago     54MB
+gideon               latest    8d627eb251f9   24 hours ago     54MB
+
+C:\Users\GideonGoderski\Desktop\Docker\gideon>docker run test-01
+PING 8.8.8.8 (8.8.8.8): 56 data bytes
+64 bytes from 8.8.8.8: seq=0 ttl=36 time=24.886 ms
+64 bytes from 8.8.8.8: seq=1 ttl=36 time=11.544 ms
+64 bytes from 8.8.8.8: seq=2 ttl=36 time=10.977 ms
+64 bytes from 8.8.8.8: seq=3 ttl=36 time=7.425 ms
+64 bytes from 8.8.8.8: seq=4 ttl=36 time=14.117 ms
+64 bytes from 8.8.8.8: seq=5 ttl=36 time=11.340 ms
+
+C:\Users\GideonGoderski\Desktop\Docker\gideon>docker run -it test-01 www.topicus.nl
+PING www.topicus.nl (185.144.224.111): 56 data bytes
+64 bytes from 185.144.224.111: seq=0 ttl=36 time=26.213 ms
+64 bytes from 185.144.224.111: seq=1 ttl=36 time=14.234 ms
+64 bytes from 185.144.224.111: seq=2 ttl=36 time=11.635 ms
+64 bytes from 185.144.224.111: seq=3 ttl=36 time=13.365 ms
+64 bytes from 185.144.224.111: seq=4 ttl=36 time=13.280 ms
+64 bytes from 185.144.224.111: seq=5 ttl=36 time=11.551 ms
+64 bytes from 185.144.224.111: seq=6 ttl=36 time=13.413 ms
+^C
+--- www.topicus.nl ping statistics ---
+7 packets transmitted, 7 packets received, 0% packet loss
+round-trip min/avg/max = 11.551/14.813/26.213 ms
+
+C:\Users\GideonGoderski\Desktop\Docker\gideon>type Dockerfile
+FROM nginx:1.22-alpine
+#USER 1000 # but that fails in nginx default image. Use the nginx-unprivileged image when you want to run secure, and unprivileged and/or in OpenShift
+WORKDIR /usr/share/nginx/html
+EXPOSE 80
+
+ENV city=Deventer+Almelo+Eindhoven
+ENTRYPOINT ["ping"]
+CMD ["8.8.8.8"]
+C:\Users\GideonGoderski\Desktop\Docker\gideon>
