@@ -1,0 +1,9 @@
+Rainbow table
+
+Een rainbow table is een tabel met vooraf berekende hashes die worden gebruikt om snel de oorspronkelijke waarde van een gehasht wachtwoord te vinden. Wanneer een wachtwoord wordt gehasht, wordt het omgezet in een unieke string van karakters die niet kan worden teruggerekend naar het oorspronkelijke wachtwoord. Een rainbow table bevat echter algoritmen die kunnen worden gebruikt om deze hashes om te keren en het oorspronkelijke wachtwoord te vinden.
+
+Rainbow tables worden vaak gebruikt door hackers om snel en efficiënt wachtwoorden te kraken. In plaats van elke hash afzonderlijk te berekenen, kunnen ze een vooraf gegenereerde rainbow table gebruiken om de oorspronkelijke waarde van de hash te vinden.
+
+Om te voorkomen dat rainbow tables worden gebruikt om wachtwoorden te kraken, gebruiken veel systemen een techniek genaamd "salted hashing". Hierbij wordt bij het hashen van een wachtwoord een willekeurige reeks tekens, de salt, toegevoegd aan het wachtwoord voordat het wordt gehasht. Dit maakt het veel moeilijker om een ​​rainbow table te gebruiken, omdat de cracker een nieuwe tabel zou moeten genereren voor elke salt die wordt gebruikt.
+
+Het is belangrijk om te beseffen dat hoewel salted hashing de effectiviteit van rainbow tables vermindert, het nog steeds belangrijk is om sterke, moeilijk te raden wachtwoorden te gebruiken om de veiligheid van uw gegevens te waarborgen.

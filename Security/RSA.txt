@@ -1,0 +1,11 @@
+RSA
+
+RSA is een cryptografisch algoritme voor het versleutelen en ontsleutelen van gegevens.
+
+Het RSA-algoritme maakt gebruik van een openbare sleutel en een privésleutel om gegevens te versleutelen en te ontsleutelen. De openbare sleutel kan worden gedeeld met iedereen die berichten naar de eigenaar van de privésleutel wil verzenden, terwijl de privésleutel strikt geheim moet worden gehouden.
+
+De versleuteling vindt plaats door de openbare sleutel te gebruiken om een ​​bericht te versleutelen, dat vervolgens alleen kan worden ontsleuteld met de overeenkomstige privésleutel. De privésleutel wordt alleen gebruikt door de persoon die de berichten wil ontcijferen.
+
+Het RSA-algoritme is gebaseerd op de moeilijkheid van het factoriseren van grote getallen. De openbare sleutel is een product van twee grote priemgetallen, terwijl de privésleutel deze priemgetallen moet kennen om het bericht te ontsleutelen. Het factoriseren van grote priemgetallen is echter een zeer tijdrovende taak, waardoor het algoritme zeer veilig is.
+
+Het RSA-algoritme wordt veel gebruikt voor het versleutelen van gegevens, zoals wachtwoorden, creditcardgegevens en andere gevoelige informatie die via internet wordt verzonden. Het wordt ook gebruikt voor digitale handtekeningen, waarbij de eigenaar van de privésleutel een bericht ondertekent om de echtheid en integriteit ervan te waarborgen.

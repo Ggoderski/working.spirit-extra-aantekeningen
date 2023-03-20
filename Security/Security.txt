@@ -1,0 +1,24 @@
+Security
+
+-	Authenticatie: 
+	Authenticatie is het proces van het verifiëren van de identiteit van een gebruiker of systeem. 
+	Java biedt verschillende authenticatietechnieken, zoals wachtwoordgebaseerde authenticatie, 
+	certificaatgebaseerde authenticatie of tokengebaseerde authenticatie.
+
+-	Autorisatie: 
+	Autorisatie is het proces van het verlenen of weigeren van toegang tot bronnen op basis van de geauthenticeerde identiteit. 
+	Java biedt verschillende autorisatietechnieken, zoals op rollen gebaseerde toegangscontrole of op attributen gebaseerde toegangscontrole.
+
+-	Versleuteling: 
+	Versleuteling is het proces van het omzetten van gegevens in een onleesbare vorm om te voorkomen dat onbevoegden deze gegevens kunnen lezen. 
+	Java biedt verschillende versleutelingsalgoritmen en bibliotheken om gegevens te versleutelen en te ontsleutelen.
+
+-	Beveiligde communicatie: 
+	Beveiligde communicatie is het proces van het veilig uitwisselen van gegevens tussen twee partijen. 
+	Java biedt verschillende beveiligde communicatieprotocollen, zoals SSL/TLS, die zorgen voor een versleutelde verbinding tussen de client en de server.
+
+Door deze elementen te combineren en te implementeren in Java-toepassingen, kunnen ontwikkelaars zorgen voor een robuuste beveiliging van hun applicaties.
+
+
+
+

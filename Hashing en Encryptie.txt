@@ -1,0 +1,30 @@
+Hashing en Encryptie
+
+Hashing en encryptie zijn twee veelgebruikte methoden om gegevens te beveiligen, maar ze hebben verschillende toepassingen en doeleinden.
+
+Hashing is een methode waarbij een algoritme wordt gebruikt om een ​​unieke vingerafdruk of hash te genereren voor een stuk gegevens. De gegenereerde hash is uniek voor de gegevens en kan niet worden teruggerekend naar de oorspronkelijke gegevens. Hashing wordt vaak gebruikt voor het opslaan van wachtwoorden. Wanneer een gebruiker een wachtwoord invoert, wordt de hash van dat wachtwoord vergeleken met de hash die is opgeslagen in de database. Als de hashes overeenkomen, is het wachtwoord correct.
+
+Encryptie is een methode waarbij gegevens worden omgezet in een onleesbare vorm, zodat alleen geautoriseerde partijen deze gegevens kunnen lezen. Encryptie gebruikt een sleutel om de gegevens te versleutelen en de versleutelde gegevens kunnen worden ontsleuteld met dezelfde sleutel. Encryptie wordt vaak gebruikt om gevoelige gegevens te beschermen, zoals creditcardnummers of persoonlijke informatie die via internet wordt verzonden.
+
+Het belangrijkste verschil tussen hashing en encryptie is dat hashing niet omkeerbaar is, terwijl encryptie dat wel is. Een hash kan niet worden teruggerekend naar de oorspronkelijke gegevens, terwijl een versleuteld bericht kan worden ontsleuteld om de oorspronkelijke gegevens te verkrijgen.
+
+Kortom, hashing wordt gebruikt om de integriteit van gegevens te controleren en te verifiëren, terwijl encryptie wordt gebruikt om gegevens te beschermen tegen ongeautoriseerde toegang.
+
+
+
+Asynchrone Encryptie
+
+Asynchrone encryptie, ook wel bekend als public key cryptography, is een vorm van encryptie waarbij twee sleutels worden gebruikt om gegevens te versleutelen en te ontsleutelen. Deze twee sleutels worden publieke en privésleutels genoemd en zijn gerelateerd aan elkaar, maar verschillen van elkaar.
+
+De publieke sleutel kan worden verspreid onder degenen die gegevens willen versleutelen en is voor iedereen toegankelijk. De privésleutel daarentegen wordt strikt geheim gehouden door de ontvanger en wordt gebruikt om de versleutelde gegevens te ontcijferen.
+
+Wanneer gegevens worden versleuteld met de publieke sleutel, kunnen deze alleen worden ontsleuteld met de overeenkomstige privésleutel. Dit betekent dat de ontvanger van de gegevens de enige persoon is die de gegevens kan ontcijferen, omdat alleen hij/zij toegang heeft tot de privésleutel.
+
+Een voorbeeld van asynchrone encryptie is het RSA-algoritme, dat een van de meest gebruikte encryptie-algoritmen ter wereld is. Het RSA-algoritme maakt gebruik van een publieke sleutel en een privésleutel om gegevens te versleutelen en te ontsleutelen.
+
+Asynchrone encryptie wordt veel gebruikt voor het beveiligen van gegevens die via internet worden verzonden, zoals wachtwoorden, creditcardgegevens en andere gevoelige informatie. Het wordt ook gebruikt voor digitale handtekeningen, waarbij de eigenaar van de privésleutel een bericht ondertekent om de echtheid en integriteit ervan te waarborgen.
+
+
+
+
+

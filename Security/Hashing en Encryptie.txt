@@ -1,0 +1,16 @@
+Hashing en Encryptie
+
+Hashing en encryptie zijn twee veelgebruikte methoden om gegevens te beveiligen, maar ze hebben verschillende toepassingen en doeleinden.
+
+Hashing is een methode waarbij een algoritme wordt gebruikt om een ​​unieke vingerafdruk of hash te genereren voor een stuk gegevens. De gegenereerde hash is uniek voor de gegevens en kan niet worden teruggerekend naar de oorspronkelijke gegevens. Hashing wordt vaak gebruikt voor het opslaan van wachtwoorden. Wanneer een gebruiker een wachtwoord invoert, wordt de hash van dat wachtwoord vergeleken met de hash die is opgeslagen in de database. Als de hashes overeenkomen, is het wachtwoord correct.
+
+Encryptie is een methode waarbij gegevens worden omgezet in een onleesbare vorm, zodat alleen geautoriseerde partijen deze gegevens kunnen lezen. Encryptie gebruikt een sleutel om de gegevens te versleutelen en de versleutelde gegevens kunnen worden ontsleuteld met dezelfde sleutel. Encryptie wordt vaak gebruikt om gevoelige gegevens te beschermen, zoals creditcardnummers of persoonlijke informatie die via internet wordt verzonden.
+
+Het belangrijkste verschil tussen hashing en encryptie is dat hashing niet omkeerbaar is, terwijl encryptie dat wel is. Een hash kan niet worden teruggerekend naar de oorspronkelijke gegevens, terwijl een versleuteld bericht kan worden ontsleuteld om de oorspronkelijke gegevens te verkrijgen.
+
+Kortom, hashing wordt gebruikt om de integriteit van gegevens te controleren en te verifiëren, terwijl encryptie wordt gebruikt om gegevens te beschermen tegen ongeautoriseerde toegang.
+
+
+
+
+
